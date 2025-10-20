@@ -39,7 +39,6 @@ Todas são **gratuitas e públicas**, não exigem autenticação e retornam dado
 - **Descrição:** Retorna informações sobre clima e temperatura atuais.
 - **Exemplo de retorno:**
     ```json
-    Copiar código
     {"current_weather": {"temperature": 26.4, "windspeed": 8.5}}
     ```
 
@@ -50,7 +49,6 @@ Todas são **gratuitas e públicas**, não exigem autenticação e retornam dado
 - **Descrição:** Retorna uma sugestão de atividade recreativa ou cultural.
 - **Exemplo de retorno:**
     ```json
-    Copiar código
     {"activity": "Try a new recipe."}
     ```
 
@@ -60,7 +58,6 @@ Todas são **gratuitas e públicas**, não exigem autenticação e retornam dado
 - **Descrição:** Retorna um conselho ou frase inspiracional.
 - **Exemplo de retorno:**
     ```json
-    Copiar código
     {"slip": {"advice": "Don’t count the days, make the days count."}}
     ```
 
@@ -70,7 +67,6 @@ Todas são **gratuitas e públicas**, não exigem autenticação e retornam dado
 - **Descrição:** Retorna fatos curiosos e engraçados sobre gatos.
 - **Exemplo de retorno:**
     ```json
-    Copiar código
     {"fact": "Cats sleep 70% of their lives."}
     ```
 
@@ -80,7 +76,6 @@ Todas são **gratuitas e públicas**, não exigem autenticação e retornam dado
 - **Descrição:** Retorna fatos aleatórios e divertidos de diversas áreas.
 - **Exemplo de retorno:**
     ```json
-    Copiar código
     {"text": "The inventor of the Pringles can is buried in one."}
     ```
 

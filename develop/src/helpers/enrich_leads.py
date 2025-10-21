@@ -1,24 +1,12 @@
 import logging
 
+from src.client.RandomUselessFacts.RandomUselessFactsClient import RandomUselessFactsClient
 from src.client.Bored.BoredClient import BoredClient
 from src.client.OpenMeteo.OpenMeteoClient import OpenMeteoClient
 from src.client.AdviceSlip.AdviceSlipClient import AdviceSlipClient
 from src.client.OKX.OKXClient import OKXClient
 
 logger = logging.getLogger(__name__)
-
-# API_MAP = {
-#     "criptomoedas": OKXClient,
-#     "finanças": OKXClient,
-#     "investimentos": OKXClient,
-#     "clima": OpenMeteoClient,
-#     "viagem": OpenMeteoClient,
-#     "aventura": BoredClient,
-#     "lazer": BoredClient,
-#     "curiosidades": RandomUselessFactsClient,
-#     "animais": CatFactsClient,
-#     "gatos": CatFactsClient,
-# }
 
 def enrich_leads(leads: list) -> list:
     """
@@ -39,6 +27,10 @@ def enrich_leads(leads: list) -> list:
                     client = OpenMeteoClient(-16.5955381, -39.1095927)
                 case 'aventura' | 'lazer':
                     client = BoredClient()
+                case 'curiosidades':
+                    client = RandomUselessFactsClient()
+                # case 'animais' | 'gatos':
+                #     client = CatFactsClient()
                 case _:
                     client = AdviceSlipClient()
             

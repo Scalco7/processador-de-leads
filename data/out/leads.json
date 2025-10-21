@@ -1,24 +1,31 @@
 [
     {
-        "nome": "Ana Beatriz",
-        "telefone": "+5511912345678",
-        "interesse": "investimentos",
+        "nome": "Ana Laura Beatriz",
+        "telefone": "+5512912345678",
+        "interesse": "curiosidades",
         "orçamento": 1500,
-        "sugestao": "O Bitcoin está estável em $108833.80. Acompanhe o mercado antes de tomar decisões."
+        "sugestao": "Albert Einstein and Charles Darwin both married their first cousins"
     },
     {
         "nome": "Carlos Eduardo",
         "telefone": "+5521998765432",
         "interesse": "lazer",
         "orçamento": 3000,
-        "sugestao": "Visit your past teachers"
+        "sugestao": "Wash your car"
+    },
+    {
+        "nome": "Ana Beatriz",
+        "telefone": "+5511912345678",
+        "interesse": "investimentos",
+        "orçamento": 1500,
+        "sugestao": "O Bitcoin está estável em $108774.90. Acompanhe o mercado antes de tomar decisões."
     },
     {
         "nome": "Lucas Martins",
         "telefone": "+5561976543210",
         "interesse": "criptomoedas",
         "orçamento": 2000,
-        "sugestao": "O Bitcoin está estável em $108833.90. Acompanhe o mercado antes de tomar decisões."
+        "sugestao": "O Bitcoin está estável em $108767.60. Acompanhe o mercado antes de tomar decisões."
     },
     {
         "nome": "Gabriel Costa",
@@ -32,7 +39,7 @@
         "telefone": "+5581988887777",
         "interesse": "cachorros",
         "orçamento": 2500,
-        "sugestao": "You can fail at what you don't want. So you might as well take a chance on doing what you love."
+        "sugestao": "Mercy is the better part of justice."
     },
     {
         "nome": "Pedro Henrique",

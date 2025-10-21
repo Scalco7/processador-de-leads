@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import logging
-import os
+import time
 
 from src.helpers.enrich_leads import enrich_leads
 from src.client.OKX.OKXClient import OKXClient
@@ -11,12 +11,6 @@ load_dotenv()
 
 LEADS_PATH = "data/leads.json"
 OUTPUT_PATH = "data/out/leads.json"
-
-
-# moneyClient = OKXClient()
-
-# print(moneyClient.get_bitcoin_price())
-# print(moneyClient.get_suggestion())
 
 logging.basicConfig(
     level=logging.INFO,
@@ -35,13 +29,20 @@ if __name__ == "__main__":
     
     if len(leads) > 0:
         logger.info(f"{len(leads)} leads carregados com sucesso.")
+        start_time = time.time()
+        
         leads_formatados = format_leads(leads)
         logger.info(f"{len(leads_formatados)} leads formatados com sucesso.")
-        
+
+        logger.info("Iniciando enriquecimento dos leads...")
         enriched_leads = enrich_leads(leads_formatados)
-        logger.info(f"{len(enriched_leads)} leads enriquecidos com sucesso.")
         
+        end_time = time.time()
+        duration = end_time - start_time
+        
+        logger.info(f"{len(enriched_leads)} leads enriquecidos com sucesso.")
+        logger.info(f"Tempo de enriquecimento: {duration:.2f} segundos.")
+
         save_json(enriched_leads, OUTPUT_PATH)
-        logger.info(f"Leads enriquecidos salvos em {OUTPUT_PATH}")
             
     logger.info("Tratamento de Leads finalizado.")

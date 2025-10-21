@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "Ana Beatriz",
+    "telefone": "(11) 91234-5678",
+    "interesse": "música",
+    "orçamento": 1500
+  },
+  {
+    "nome": "Carlos Eduardo",
+    "telefone": "(21) 99876-5432",
+    "interesse": "viagens",
+    "orçamento": 3000
+  },
+  {
+    "nome": "Fernanda Lima",
+    "telefone": "(31) 98765-4321",
+    "interesse": "finanças",
+    "orçamento": 5000
+  },
+  {
+    "nome": "",
+    "telefone": "(41) 91234-5678",
+    "interesse": "gastronomia",
+    "orçamento": 800
+  },
+  {
+    "nome": "Mariana Souza",
+    "telefone": "",
+    "interesse": "pets",
+    "orçamento": 1200
+  },
+  {
+    "nome": "Lucas Martins",
+    "telefone": "(61) 97654-3210",
+    "interesse": "",
+    "orçamento": 2000
+  },
+  {
+    "nome": "Gabriel Costa",
+    "telefone": "(71) 91222-3344",
+    "interesse": "automóveis",
+    "orçamento": null
+  },
+  {
+    "nome": "Isabela Rocha",
+    "telefone": "(81) 98888-7777",
+    "interesse": "educação",
+    "orçamento": 2500
+  },
+  {
+    "nome": "Pedro Henrique",
+    "telefone": "(91) 99999-8888",
+    "interesse": "astrologia",
+    "orçamento": 1800
+  },
+  null,
+  {
+    "nome": "Marcos Vinícius",
+    "telefone": "(11) 95555-1234",
+    "interesse": "moda",
+    "orçamento": 2200
+  },
+  {
+    "nome": "Sofia Almeida",
+    "telefone": "(21) 97777-4321",
+    "interesse": "cinema",
+    "orçamento": 1700
+  },
+  null,
+  {
+    "nome": "Felipe Rocha",
+    "telefone": "(51) 97777-1111",
+    "interesse": "games",
+    "orçamento": 3500
+  },
+  {
+    "nome": "",
+    "telefone": "",
+    "interesse": "",
+    "orçamento": null
+  }
+]

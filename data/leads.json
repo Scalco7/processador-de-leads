@@ -1,0 +1,92 @@
+[
+  {
+    "nome": "felipe scalco",
+    "telefone": "(11) 98877-6655",
+    "interesse": "criptomoedas",
+    "orçamento": 1500
+  },
+  {
+    "nome": "MARIA clara",
+    "telefone": "+55 21 9 9988 7766",
+    "interesse": "clima",
+    "orçamento": 500
+  },
+  {
+    "nome": "joao",
+    "telefone": "2199887766",
+    "interesse": null,
+    "orçamento": null
+  },
+  {
+    "nome": "ana luiza",
+    "telefone": "invalid-number",
+    "interesse": "lazer",
+    "orçamento": 300
+  },
+  {
+    "nome": "CARLOS eduardo",
+    "telefone": "11 91234 5678",
+    "interesse": "gatos",
+    "orçamento": 100
+  },
+  {
+    "nome": "Bea",
+    "telefone": "998877665",
+    "interesse": "conselhos",
+    "orçamento": 50
+  },
+  {
+    "nome": "PABLO LATAPIAT",
+    "telefone": "0055 (48) 99123-4567",
+    "interesse": "investimentos",
+    "orçamento": 2000
+  },
+  {
+    "nome": "jefferson",
+    "telefone": null,
+    "interesse": "aventura",
+    "orçamento": 0
+  },
+  {
+    "nome": "Guilherme",
+    "telefone": "55-31-99999-9999",
+    "interesse": "clima",
+    "orçamento": 800
+  },
+  {
+    "nome": "   andré   ",
+    "telefone": "+55 (11) 98877.6655",
+    "interesse": "gatos",
+    "orçamento": 150
+  },
+  {
+    "nome": "cesar",
+    "telefone": "+552198887766",
+    "interesse": "conselhos",
+    "orçamento": null
+  },
+  {
+    "nome": "eduardo ",
+    "telefone": "(16)99887766",
+    "interesse": "aventura",
+    "orçamento": 400
+  },
+  {
+    "nome": "maria fernanda",
+    "telefone": "551199887766",
+    "interesse": null,
+    "orçamento": 600
+  },
+  {
+    "nome": "Janderson",
+    "telefone": "99999-9999",
+    "interesse": "clima",
+    "orçamento": 750
+  },
+  {
+    "nome": "felipe scalco",
+    "telefone": "(11) 98877-6655",
+    "interesse": "criptomoedas",
+    "orçamento": 1500
+  }
+]

@@ -9,10 +9,7 @@ from src.helpers.format_leads import format_leads
 
 load_dotenv()
 
-LEADS_1_FILE = "data/leads_1.json"
-LEADS_2_FILE = "data/leads_2.json"
-LEADS_3_FILE = "data/leads_3.json"
-
+LEADS_PATH = "data/leads.json"
 OUTPUT_PATH = "data/out/leads.json"
 
 
@@ -34,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     logger.info("Iniciando leitura de leads...")
-    leads = load_leads(LEADS_1_FILE)
+    leads = load_leads(LEADS_PATH)
     
     if len(leads) > 0:
         logger.info(f"{len(leads)} leads carregados com sucesso.")

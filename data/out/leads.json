@@ -1,51 +1,100 @@
 [
     {
-        "nome": "Ana Laura Beatriz",
-        "telefone": "+5512912345678",
-        "interesse": "curiosidades",
+        "nome": "Felipe Scalco",
+        "telefone": "+5511988776655",
+        "interesse": "criptomoedas",
         "orçamento": 1500,
-        "sugestao": "Every day, 7% of the US eats at McDonald’s."
+        "sugestao": "O Bitcoin está estável em $108505.50. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Maria Clara",
+        "telefone": "+5521999887766",
+        "interesse": "clima",
+        "orçamento": 500,
+        "sugestao": "A temperatura está agradável (19.1°C). Um ótimo dia para sair!"
     },
     {
         "nome": "Carlos Eduardo",
-        "telefone": "+5521998765432",
-        "interesse": "lazer",
-        "orçamento": 3000,
-        "sugestao": "Learn how to fold a paper crane"
-    },
-    {
-        "nome": "Ana Beatriz",
         "telefone": "+5511912345678",
-        "interesse": "investimentos",
-        "orçamento": 1500,
-        "sugestao": "O Bitcoin está estável em $108636.80. Acompanhe o mercado antes de tomar decisões."
-    },
-    {
-        "nome": "Lucas Martins",
-        "telefone": "+5561976543210",
         "interesse": "gatos",
+        "orçamento": 100,
+        "sugestao": "A cat's normal pulse is 140-240 beats per minute, with an average of 195."
+    },
+    {
+        "nome": "Pablo Latapiat",
+        "telefone": "+5548991234567",
+        "interesse": "investimentos",
         "orçamento": 2000,
-        "sugestao": "There is a species of cat smaller than the average housecat. It is native to Africa and it is the Black-footed cat (Felis nigripes). Its top weight is 5.5 pounds."
+        "sugestao": "O Bitcoin está estável em $108492.10. Acompanhe o mercado antes de tomar decisões."
     },
     {
-        "nome": "Gabriel Costa",
-        "telefone": "+5571912223344",
-        "interesse": "viagem",
-        "orçamento": 4000,
-        "sugestao": "A temperatura está agradável (19.0°C). Um ótimo dia para sair!"
-    },
-    {
-        "nome": "Isabela Rocha",
-        "telefone": "+5581988887777",
-        "interesse": "cachorros",
-        "orçamento": 2500,
-        "sugestao": "Give up your seat for someone who needs it."
-    },
-    {
-        "nome": "Pedro Henrique",
-        "telefone": "+5591999998888",
+        "nome": "Guilherme",
+        "telefone": "+5531999999999",
         "interesse": "clima",
-        "orçamento": 1800,
-        "sugestao": "A temperatura está agradável (19.0°C). Um ótimo dia para sair!"
+        "orçamento": 800,
+        "sugestao": "A temperatura está agradável (19.1°C). Um ótimo dia para sair!"
+    },
+    {
+        "nome": "André",
+        "telefone": "+5511988776655",
+        "interesse": "gatos",
+        "orçamento": 150,
+        "sugestao": "The cheetah is the world's fastest land mammal. It can run at speeds of up to 70 miles an hour (113 kilometers an hour)."
+    },
+    {
+        "nome": "Eduardo",
+        "telefone": "+551699887766",
+        "interesse": "aventura",
+        "orçamento": 400,
+        "sugestao": "Practice coding in your favorite lanaguage"
+    },
+    {
+        "nome": "Joao",
+        "telefone": "+552199887766",
+        "interesse": null,
+        "orçamento": null,
+        "sugestao": null
+    },
+    {
+        "nome": "Ana Luiza",
+        "telefone": null,
+        "interesse": "lazer",
+        "orçamento": 300,
+        "sugestao": "Clean out your garage"
+    },
+    {
+        "nome": "Bea",
+        "telefone": null,
+        "interesse": "conselhos",
+        "orçamento": 50,
+        "sugestao": "Do, or do not. There is no try."
+    },
+    {
+        "nome": "Jefferson",
+        "telefone": null,
+        "interesse": "aventura",
+        "orçamento": 0,
+        "sugestao": "Do a jigsaw puzzle"
+    },
+    {
+        "nome": "Cesar",
+        "telefone": "+552198887766",
+        "interesse": "conselhos",
+        "orçamento": null,
+        "sugestao": "If you are ever in doubt about whether or not to wash your hair: Wash it."
+    },
+    {
+        "nome": "Maria Fernanda",
+        "telefone": "+551199887766",
+        "interesse": null,
+        "orçamento": 600,
+        "sugestao": null
+    },
+    {
+        "nome": "Janderson",
+        "telefone": null,
+        "interesse": "clima",
+        "orçamento": 750,
+        "sugestao": "A temperatura está agradável (19.1°C). Um ótimo dia para sair!"
     }
 ]

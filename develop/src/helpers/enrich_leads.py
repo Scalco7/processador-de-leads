@@ -18,29 +18,31 @@ def enrich_leads(leads: list) -> list:
 
     for lead in leads:
         try:
-            interest = lead.get("interesse", "").lower().strip()
-            client = AdviceSlipClient()
-            
-            match interest:
-                case "criptomoedas" | 'finanças' | 'investimentos' | 'tecnologia' | 'economia' | 'empreendedorismo':
-                    client = OKXClient()
-                case 'clima' | 'viagem' | 'natureza' | 'esportes':
-                    client = OpenMeteoClient(-16.5955381, -39.1095927)
-                case 'aventura' | 'lazer' | 'diversão':
-                    client = BoredClient()
-                case 'curiosidades' | 'historia' | 'ciência' | 'arte' | 'automóveis' | 'games' | 'fotografia':
-                    client = RandomUselessFactsClient()
-                case 'animais' | 'gatos' | 'pets':
-                    client = CatFactsClient()
-                case _:
-                    client = AdviceSlipClient()
-            
-            suggestion = client.get_suggestion()
-
+            interest = lead.get("interesse", "")
+            suggestion = None
+            if interest != None:
+                interest = interest.lower().strip()
+                client = AdviceSlipClient()
+                
+                match interest:
+                    case "criptomoedas" | 'finanças' | 'investimentos' | 'tecnologia' | 'economia' | 'empreendedorismo':
+                        client = OKXClient()
+                    case 'clima' | 'viagem' | 'natureza' | 'esportes':
+                        client = OpenMeteoClient(-16.5955381, -39.1095927)
+                    case 'aventura' | 'lazer' | 'diversão':
+                        client = BoredClient()
+                    case 'curiosidades' | 'historia' | 'ciência' | 'arte' | 'automóveis' | 'games' | 'fotografia':
+                        client = RandomUselessFactsClient()
+                    case 'animais' | 'gatos' | 'pets':
+                        client = CatFactsClient()
+                    case _:
+                        client = AdviceSlipClient()
+                
+                suggestion = client.get_suggestion()
+                         
             lead["sugestao"] = suggestion
             enriched.append(lead)
 
-            logger.info(f"Lead '{lead.get('nome')}' enriquecido com {type(client).__name__}")
 
         except Exception as e:
             logger.error(f"Erro ao enriquecer lead {lead.get('nome')}: {e}")

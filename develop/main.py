@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import logging
 import os
 
 from src.client.OKX.OKXClient import OKXClient
@@ -16,7 +17,20 @@ LEADS_3_FILE = "data/leads_3.json"
 # print(moneyClient.get_bitcoin_price())
 # print(moneyClient.get_suggestion())
 
-leads = load_leads(LEADS_2_FILE)
-print(f"Foram carregados {len(leads)} leads.")
-for lead in leads:
-    print(lead)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    handlers=[
+        logging.FileHandler("develop/logs/app.log", encoding="utf-8"),
+        logging.StreamHandler() 
+    ]
+)
+
+logger = logging.getLogger(__name__)
+
+if __name__ == "__main__":
+    logger.info("Iniciando leitura de leads...")
+    leads = load_leads(LEADS_1_FILE)
+    logger.info(f"{len(leads)} leads carregados com sucesso.")
+    for lead in leads:
+        logger.info(lead)

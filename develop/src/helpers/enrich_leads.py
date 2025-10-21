@@ -1,5 +1,6 @@
 import logging
 
+from src.client.AdviceSlip.AdviceSlipClient import AdviceSlipClient
 from src.client.OKX.OKXClient import OKXClient
 
 logger = logging.getLogger(__name__)
@@ -27,8 +28,7 @@ def enrich_leads(leads: list) -> list:
     for lead in leads:
         try:
             interesse = lead.get("interesse", "").lower().strip()
-            # api_class = API_MAP.get(interesse, AdviceSlipClient)
-            api_class = API_MAP.get(interesse)
+            api_class = API_MAP.get(interesse, AdviceSlipClient)
 
             client = api_class()
             suggestion = client.get_suggestion()

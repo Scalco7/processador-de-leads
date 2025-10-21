@@ -6,10 +6,10 @@ Abaixo estão os interesses mapeados e suas categorias temáticas:
 
 | Categoria | Interesses Relacionados | Descrição |
 |------------|--------------------------|------------|
-| 💰 **Negócios & Tecnologia** | tecnologia, finanças, empreendedorismo | Leads voltados a inovação, mercado financeiro e tecnologia. As sugestões podem conter informações sobre tendências econômicas e digitais. |
-| ✈️ **Viagens & Natureza** | viagens, natureza, esportes | Leads interessados em atividades ao ar livre e turismo. O enriquecimento utiliza dados de clima e condições meteorológicas. |
-| 🎭 **Cultura & Entretenimento** | gastronomia, música, moda, cinema, arte | Leads voltados a lazer e cultura. O sistema fornece sugestões de atividades recreativas relacionadas. |
-| 🌱 **Desenvolvimento Pessoal & Bem-Estar** | saúde, educação, astrologia, leitura | Leads que buscam aprimoramento pessoal, equilíbrio e conhecimento. Recebem conselhos inspiracionais. |
-| 🐾 **Animais & Pets** | pets | Leads com interesse em animais domésticos. Recebem curiosidades sobre gatos. |
-| 🔧 **Curiosidades & Outros** | automóveis, games, fotografia, sustentabilidade | Leads de interesses diversos. Recebem fatos aleatórios e interessantes. |
+| 💰 **Negócios & Tecnologia** | criptomoedas, finanças, investimentos, tecnologia, economia, empreendedorismo | Leads voltados a inovação, mercado financeiro, economia e tecnologia. As sugestões podem conter informações sobre tendências econômicas e digitais, especialmente relacionadas a criptomoedas. |
+| ✈️ **Viagens & Natureza** | clima, viagem, natureza, esportes | Leads interessados em atividades ao ar livre, turismo e condições climáticas. O enriquecimento utiliza dados de clima e sugestões baseadas na temperatura. |
+| 🎉 **Lazer & Atividades** | aventura, lazer, diversão | Leads que buscam ideias para atividades recreativas, lazer e diversão. O sistema fornece sugestões de atividades aleatórias. |
+| 💡 **Curiosidades & Conhecimento** | curiosidades, historia, ciência, arte, automóveis, games, fotografia | Leads com interesses diversos em fatos aleatórios, história, ciência, arte e hobbies. Recebem curiosidades e informações interessantes. |
+| 🐾 **Animais & Pets** | animais, gatos, pets | Leads com interesse em animais domésticos, especialmente gatos. Recebem curiosidades e fatos sobre felinos. |
+| 🌱 **Desenvolvimento Pessoal & Bem-Estar** | *Não mapeado diretamente a uma API específica; veja Fallback* | Interesses como saúde, educação, astrologia, leitura, etc., que não acionam uma API específica, são tratados pelo fallback. |
 | 🧭 **Padrão (Fallback)** | qualquer outro não listado | Para interesses não mapeados, uma API padrão de conselhos é utilizada. |

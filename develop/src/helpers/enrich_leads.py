@@ -18,19 +18,19 @@ def enrich_leads(leads: list) -> list:
 
     for lead in leads:
         try:
-            interesse = lead.get("interesse", "").lower().strip()
+            interest = lead.get("interesse", "").lower().strip()
             client = AdviceSlipClient()
             
-            match interesse:
-                case "criptomoedas" | 'finanças' | 'investimentos':
+            match interest:
+                case "criptomoedas" | 'finanças' | 'investimentos' | 'tecnologia' | 'economia' | 'empreendedorismo':
                     client = OKXClient()
-                case "clima" | 'viagem':
+                case 'clima' | 'viagem' | 'natureza' | 'esportes':
                     client = OpenMeteoClient(-16.5955381, -39.1095927)
-                case 'aventura' | 'lazer':
+                case 'aventura' | 'lazer' | 'diversão':
                     client = BoredClient()
-                case 'curiosidades':
+                case 'curiosidades' | 'historia' | 'ciência' | 'arte' | 'automóveis' | 'games' | 'fotografia':
                     client = RandomUselessFactsClient()
-                case 'animais' | 'gatos':
+                case 'animais' | 'gatos' | 'pets':
                     client = CatFactsClient()
                 case _:
                     client = AdviceSlipClient()

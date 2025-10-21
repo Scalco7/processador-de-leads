@@ -1,92 +1,92 @@
 [
   {
-    "nome": "Ana Beatriz",
-    "telefone": "(11) 91234-5678",
-    "interesse": "música",
-    "orçamento": 1500
-  },
-  {
-    "nome": "Carlos Eduardo",
-    "telefone": "(21) 99876-5432",
-    "interesse": "viagens",
-    "orçamento": 3000
-  },
-  {
-    "nome": "Fernanda Lima",
-    "telefone": "(31) 98765-4321",
-    "interesse": "finanças",
-    "orçamento": 5000
-  },
-  {
-    "nome": "João Pedro",
-    "telefone": "(41) 91234-5678",
-    "interesse": "gastronomia",
-    "orçamento": 800
-  },
-  {
-    "nome": "Mariana Souza",
-    "telefone": "(51) 99887-6655",
-    "interesse": "pets",
-    "orçamento": 1200
-  },
-  {
-    "nome": "Lucas Martins",
-    "telefone": "(61) 97654-3210",
-    "interesse": "saúde",
-    "orçamento": 2000
-  },
-  {
-    "nome": "Gabriel Costa",
-    "telefone": "(71) 91222-3344",
-    "interesse": "automóveis",
-    "orçamento": 4000
-  },
-  {
-    "nome": "Isabela Rocha",
-    "telefone": "(81) 98888-7777",
-    "interesse": "educação",
-    "orçamento": 2500
-  },
-  {
-    "nome": "Pedro Henrique",
-    "telefone": "(91) 99999-8888",
-    "interesse": "astrologia",
-    "orçamento": 1800
-  },
-  {
-    "nome": "Marcos Vinícius",
-    "telefone": "(11) 95555-1234",
-    "interesse": "moda",
-    "orçamento": 2200
-  },
-  {
-    "nome": "Sofia Almeida",
-    "telefone": "(21) 97777-4321",
-    "interesse": "cinema",
-    "orçamento": 1700
-  },
-  {
-    "nome": "Rafael Nunes",
-    "telefone": "(31) 98888-2222",
-    "interesse": "arte",
-    "orçamento": 1900
-  },
-  {
-    "nome": "Carolina Mendes",
-    "telefone": "(41) 96666-5555",
-    "interesse": "natureza",
-    "orçamento": 2800
-  },
-  {
-    "nome": "Felipe Rocha",
-    "telefone": "(51) 97777-1111",
-    "interesse": "games",
+    "nome": "Felipe Souza",
+    "telefone": "(11) 98888-7777",
+    "interesse": "Criptomoedas",
     "orçamento": 3500
   },
   {
-    "nome": "Ana Beatriz",
-    "telefone": "(11) 91234-5678",
-    "interesse": "música",
+    "nome": "Mariana Alves",
+    "telefone": "+55 21 99999-8888",
+    "interesse": "Clima",
     "orçamento": 1500
+  },
+  {
+    "nome": "Lucas Pereira",
+    "telefone": "21988887777",
+    "interesse": "Esportes",
+    "orçamento": 900
+  },
+  {
+    "nome": "Ana Costa",
+    "telefone": "55 (31) 98888 5555",
+    "interesse": "Viagem",
+    "orçamento": 2700
+  },
+  {
+    "nome": "Ricardo Martins",
+    "telefone": "+552199988-3333",
+    "interesse": "Curiosidades",
+    "orçamento": 1800
+  },
+  {
+    "nome": "Júlia Andrade",
+    "telefone": "031 98888-2222",
+    "interesse": "Música",
+    "orçamento": 1200
+  },
+  {
+    "nome": "Bruno Lopes",
+    "telefone": "11999998888",
+    "interesse": "Gatos",
+    "orçamento": 800
+  },
+  {
+    "nome": "Patrícia Ramos",
+    "telefone": "99999-1111",
+    "interesse": "Educação",
+    "orçamento": 2100
+  },
+  {
+    "nome": "Carlos Mendes",
+    "telefone": "(85) 98888 4444",
+    "interesse": "Trabalho",
+    "orçamento": 1300
+  },
+  {
+    "nome": "Fernanda Dias",
+    "telefone": "+55 (51) 97777-0000",
+    "interesse": "Saúde",
+    "orçamento": 1950
+  },
+  {
+    "nome": "Diego Rocha",
+    "telefone": "5581988887777",
+    "interesse": "Tecnologia",
+    "orçamento": 2900
+  },
+  {
+    "nome": "Carla Oliveira",
+    "telefone": "(16)98888-555",
+    "interesse": "Economia",
+    "orçamento": 3000
+  },
+  {
+    "nome": "Thiago Santos",
+    "telefone": "988887777",
+    "interesse": "Games",
+    "orçamento": 1000
+  },
+  {
+    "nome": "Renata Castro",
+    "telefone": "tel: +55 (62) 99999 6666",
+    "interesse": "Fotografia",
+    "orçamento": 2400
+  },
+  {
+    "nome": "Gabriel Freitas",
+    "telefone": "Número desconhecido",
+    "interesse": "Cinema",
+    "orçamento": 1800
   }
 ]

@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     logger.info("Iniciando leitura de leads...")
-    leads = load_leads(LEADS_3_FILE)
+    leads = load_leads(LEADS_2_FILE)
     logger.info(f"{len(leads)} leads carregados com sucesso.")
     leads_formatados = format_leads(leads)
     logger.info(f"{len(leads_formatados)} leads formatados com sucesso.")

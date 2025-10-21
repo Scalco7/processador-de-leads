@@ -1,5 +1,7 @@
 import logging
 
+from src.helpers.format_phone_number import format_phone_number
+
 logger = logging.getLogger(__name__)
 
 def format_leads(leads: list) -> list:
@@ -27,9 +29,12 @@ def format_leads(leads: list) -> list:
         interesse = lead.get("interesse")
         orcamento = lead.get("orçamento")
 
-        if not any([nome, telefone, interesse, orcamento]):
-            logger.info(f"Lead totalmente nulo removido: {lead}")
+        if not any([nome, telefone]):
+            logger.info(f"Lead nulo removido: {lead}")
             continue
+
+        telefone = format_phone_number(telefone)
+        lead['telefone'] = telefone
 
         key = (nome, telefone)
         if key in unique:

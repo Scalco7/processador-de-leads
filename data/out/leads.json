@@ -4,28 +4,28 @@
         "telefone": "+5512912345678",
         "interesse": "curiosidades",
         "orçamento": 1500,
-        "sugestao": "Albert Einstein and Charles Darwin both married their first cousins"
+        "sugestao": "Every day, 7% of the US eats at McDonald’s."
     },
     {
         "nome": "Carlos Eduardo",
         "telefone": "+5521998765432",
         "interesse": "lazer",
         "orçamento": 3000,
-        "sugestao": "Wash your car"
+        "sugestao": "Learn how to fold a paper crane"
     },
     {
         "nome": "Ana Beatriz",
         "telefone": "+5511912345678",
         "interesse": "investimentos",
         "orçamento": 1500,
-        "sugestao": "O Bitcoin está estável em $108774.90. Acompanhe o mercado antes de tomar decisões."
+        "sugestao": "O Bitcoin está estável em $108636.80. Acompanhe o mercado antes de tomar decisões."
     },
     {
         "nome": "Lucas Martins",
         "telefone": "+5561976543210",
-        "interesse": "criptomoedas",
+        "interesse": "gatos",
         "orçamento": 2000,
-        "sugestao": "O Bitcoin está estável em $108767.60. Acompanhe o mercado antes de tomar decisões."
+        "sugestao": "There is a species of cat smaller than the average housecat. It is native to Africa and it is the Black-footed cat (Felis nigripes). Its top weight is 5.5 pounds."
     },
     {
         "nome": "Gabriel Costa",
@@ -39,7 +39,7 @@
         "telefone": "+5581988887777",
         "interesse": "cachorros",
         "orçamento": 2500,
-        "sugestao": "Mercy is the better part of justice."
+        "sugestao": "Give up your seat for someone who needs it."
     },
     {
         "nome": "Pedro Henrique",

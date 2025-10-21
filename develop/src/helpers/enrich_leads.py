@@ -1,5 +1,6 @@
 import logging
 
+from src.client.CatFacts.CatFactsClient import CatFactsClient
 from src.client.RandomUselessFacts.RandomUselessFactsClient import RandomUselessFactsClient
 from src.client.Bored.BoredClient import BoredClient
 from src.client.OpenMeteo.OpenMeteoClient import OpenMeteoClient
@@ -29,8 +30,8 @@ def enrich_leads(leads: list) -> list:
                     client = BoredClient()
                 case 'curiosidades':
                     client = RandomUselessFactsClient()
-                # case 'animais' | 'gatos':
-                #     client = CatFactsClient()
+                case 'animais' | 'gatos':
+                    client = CatFactsClient()
                 case _:
                     client = AdviceSlipClient()
             

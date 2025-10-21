@@ -1,5 +1,6 @@
 import logging
 
+from src.helpers.capitalize_name import capitalize_name
 from src.helpers.format_phone_number import format_phone_number
 
 logger = logging.getLogger(__name__)
@@ -24,25 +25,28 @@ def format_leads(leads: list) -> list:
             logger.warning(f"Lead inválido (não é dict): {lead}")
             continue
 
-        nome = lead.get("nome")
-        telefone = lead.get("telefone")
-        interesse = lead.get("interesse")
-        orcamento = lead.get("orçamento")
+        name = lead.get("nome")
+        phone = lead.get("telefone")
+        interest = lead.get("interesse")
+        budget = lead.get("orçamento")
 
-        if not any([nome, telefone]):
+        if not any([name, phone]):
             logger.info(f"Lead nulo removido: {lead}")
             continue
 
-        telefone = format_phone_number(telefone)
-        lead['telefone'] = telefone
+        phone = format_phone_number(phone)
+        name = capitalize_name(name)
 
-        key = (nome, telefone)
+        lead['nome'] = name
+        lead['telefone'] = phone
+        
+        key = (name, phone)
         if key in unique:
             logger.info(f"Lead duplicado removido: {lead}")
             continue
         unique[key] = True
 
-        if all([nome, telefone, interesse, orcamento]):
+        if all([name, phone, interest, budget]):
             valid_leads.append(lead)
         else:
             incomplete_leads.append(lead)

@@ -17,8 +17,8 @@ def format_leads(leads: list) -> list:
         return []
 
     unique = {}
-    valid_leads = []
-    incomplete_leads = []
+    validLeads = []
+    incompleteLeads = []
 
     for lead in leads:
         if not isinstance(lead, dict):
@@ -47,17 +47,17 @@ def format_leads(leads: list) -> list:
         unique[key] = True
 
         if all([name, phone, interest, budget]):
-            valid_leads.append(lead)
+            validLeads.append(lead)
         else:
-            incomplete_leads.append(lead)
+            incompleteLeads.append(lead)
 
-    total_original = len(leads)
-    total_validos = len(valid_leads)
-    total_incompletos = len(incomplete_leads)
+    numberOfLeads = len(leads)
+    numberOfValidLeads = len(validLeads)
+    numberOfIncompleteLeads = len(incompleteLeads)
 
-    logger.info(f"Total original: {total_original}")
-    logger.info(f"Leads válidos: {total_validos}")
-    logger.info(f"Incompletos: {total_incompletos}")
-    logger.info(f"Removidos: {total_original - (total_validos + total_incompletos)}")
+    logger.info(f"Total de leads: {numberOfLeads}")
+    logger.info(f"Leads válidos: {numberOfValidLeads}")
+    logger.info(f"Incompletos: {numberOfIncompleteLeads}")
+    logger.info(f"Removidos: {numberOfLeads - (numberOfValidLeads + numberOfIncompleteLeads)}")
 
-    return valid_leads + incomplete_leads
+    return validLeads + incompleteLeads

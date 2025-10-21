@@ -1,5 +1,6 @@
 import logging
 
+from src.client.Bored.BoredClient import BoredClient
 from src.client.OpenMeteo.OpenMeteoClient import OpenMeteoClient
 from src.client.AdviceSlip.AdviceSlipClient import AdviceSlipClient
 from src.client.OKX.OKXClient import OKXClient
@@ -37,7 +38,7 @@ def enrich_leads(leads: list) -> list:
                 case "clima" | 'viagem':
                     client = OpenMeteoClient(-16.5955381, -39.1095927)
                 case 'aventura' | 'lazer':
-                    client = AdviceSlipClient()
+                    client = BoredClient()
                 case _:
                     client = AdviceSlipClient()
             

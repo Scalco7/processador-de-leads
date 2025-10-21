@@ -1,0 +1,65 @@
+[
+    {
+        "nome": "Ana Beatriz",
+        "telefone": "+5511912345678",
+        "interesse": "criptomoedas",
+        "orçamento": 1500,
+        "sugestao": "O Bitcoin está estável em $108746.00. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Carlos Eduardo",
+        "telefone": "+5521998765432",
+        "interesse": "criptomoedas",
+        "orçamento": 3000,
+        "sugestao": "O Bitcoin está estável em $108746.00. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Fernanda Lima",
+        "telefone": "+5531987654321",
+        "interesse": "criptomoedas",
+        "orçamento": 5000,
+        "sugestao": "O Bitcoin está estável em $108746.00. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "João Pedro",
+        "telefone": "+5541912345678",
+        "interesse": "criptomoedas",
+        "orçamento": 800,
+        "sugestao": "O Bitcoin está estável em $108745.10. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Mariana Souza",
+        "telefone": "+5551998876655",
+        "interesse": "criptomoedas",
+        "orçamento": 1200,
+        "sugestao": "O Bitcoin está estável em $108745.10. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Lucas Martins",
+        "telefone": "+5561976543210",
+        "interesse": "criptomoedas",
+        "orçamento": 2000,
+        "sugestao": "O Bitcoin está estável em $108745.10. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Gabriel Costa",
+        "telefone": "+5571912223344",
+        "interesse": "criptomoedas",
+        "orçamento": 4000,
+        "sugestao": "O Bitcoin está estável em $108745.10. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Isabela Rocha",
+        "telefone": "+5581988887777",
+        "interesse": "criptomoedas",
+        "orçamento": 2500,
+        "sugestao": "O Bitcoin está estável em $108745.20. Acompanhe o mercado antes de tomar decisões."
+    },
+    {
+        "nome": "Pedro Henrique",
+        "telefone": "+5591999998888",
+        "interesse": "criptomoedas",
+        "orçamento": 1800,
+        "sugestao": "O Bitcoin está estável em $108745.20. Acompanhe o mercado antes de tomar decisões."
+    }
+]

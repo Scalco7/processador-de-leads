@@ -4,7 +4,7 @@ import os
 
 from src.helpers.enrich_leads import enrich_leads
 from src.client.OKX.OKXClient import OKXClient
-from src.helpers.load_leads import load_leads
+from src.helpers.json_helpers import load_leads, save_json
 from src.helpers.format_leads import format_leads
 
 load_dotenv()
@@ -12,6 +12,8 @@ load_dotenv()
 LEADS_1_FILE = "data/leads_1.json"
 LEADS_2_FILE = "data/leads_2.json"
 LEADS_3_FILE = "data/leads_3.json"
+
+OUTPUT_PATH = "data/out/leads.json"
 
 
 # moneyClient = OKXClient()
@@ -42,7 +44,7 @@ if __name__ == "__main__":
         enriched_leads = enrich_leads(leads_formatados)
         logger.info(f"{len(enriched_leads)} leads enriquecidos com sucesso.")
         
-        for lead in enriched_leads:
-            logger.info(lead)
+        save_json(enriched_leads, OUTPUT_PATH)
+        logger.info(f"Leads enriquecidos salvos em {OUTPUT_PATH}")
             
     logger.info("Tratamento de Leads finalizado.")

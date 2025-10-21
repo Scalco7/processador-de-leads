@@ -27,3 +27,15 @@ def load_leads(file_path: str) -> List[Dict[str, Any]]:
     except Exception as e:
         logger.error(f"Erro inesperado ao ler {file_path}: {e}")
         return []
+
+def save_json(data: List[Dict[str, Any]], file_path: str) -> None:
+    """
+    Exporta uma lista de dicionários (ex: leads enriquecidos) para um arquivo JSON.
+    O arquivo é salvo com indentação e codificação UTF-8.
+    """
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+            logger.info(f"Arquivo salvo com sucesso: {file_path}")
+    except Exception as e:
+        logger.error(f"Erro ao salvar arquivo JSON em {file_path}: {e}")

@@ -1,5 +1,8 @@
+from dotenv import load_dotenv
 
 from src.client.OKX.OKXClient import OKXClient
+
+load_dotenv()
 
 moneyClient = OKXClient()
 

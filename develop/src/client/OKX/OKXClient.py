@@ -1,16 +1,16 @@
 import requests
 import logging
+import os
 
 from src.client.Client import Client
 
 class OKXClient(Client):
     """
-    Cliente para consumir a CoinDesk API e obter informações sobre a cotação do Bitcoin.
+    Cliente para consumir a OKX API e obter informações sobre a cotação do Bitcoin.
     """
-    
-    api_key = 'fce25e12-a519-4dee-8fd3-6c5b15416171'
 
     BASE_URL = "https://www.okx.com/api/v5/market/ticker"
+    OKX_API_KEY = os.getenv("OKX_API_KEY")
 
     def __init__(self):
         self.logger = logging.getLogger(__name__)
